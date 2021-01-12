@@ -14,12 +14,17 @@ Answer the following questions
 
 1. Read about `for loops` in the _Effective Go_ document
 
-- What kind of loop doesn’t exist in Go?
+- Q: What kind of loop doesn’t exist in Go?
+- A: The Go 'for' loop is similar to, but not the same as C's. It unifies 'for' and 'while' and there is no 'do-while'.
 
 2. Read about the `fmt` _package_
 
-- What does `fmt.Println()` return?
+- Q: What does `fmt.Println()` return?
+- A: `fmt.Println()` returns:
+  1. an integer for number of bytes written and
+  2. any write error encountered
 
-3. Find a _blog post_ about the recent release of Go 1.13
+3. Find a _blog post_ about an upcoming release of Go:
 
-- What are some of the new features?
+- Q: What are some proposed new features?
+- A: Adding support for type parameters for types and functions, permitting a form of generic programming.
