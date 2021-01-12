@@ -30,3 +30,8 @@ There are some great resources online to go further with the course material.
 [slides]: https://static.frontendmasters.com/resources/2019-09-24-golang/golang.pdf
 [go]: https://frontendmasters.com/courses/go-for-js-devs/
 [godownload]: https://golang.org/dl/
+
+## Notes
+
+- 'go doc fmt': Prints out docs for fmt package.
+- 'go doc fmt.Println': Prints out a description of what the function does.
