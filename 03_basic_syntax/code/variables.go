@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+/*
 
 var varNotInMain string = "Variable outside of main()"
 
@@ -18,3 +18,4 @@ func main() {
 	nameThree := "Test"    // shothand syntax, defines variable with value and type without boilerplate, most common
 	fmt.Println(nameThree) // "Test"
 }
+*/
