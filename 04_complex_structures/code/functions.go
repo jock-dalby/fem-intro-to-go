@@ -8,6 +8,12 @@ func printAge(age int) (ageOfSally int, ageOfBob int) {
 	return
 }
 
+// Can use spread operator to show undefind number of args
+func printAges(ages ...int) {
+	fmt.Println(ages)
+}
+
 func main() {
 	fmt.Println(printAge(8))
+	printAges(5, 10, 15, 20)
 }
