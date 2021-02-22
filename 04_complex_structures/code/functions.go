@@ -1,15 +1,13 @@
 package main
 
-// import "fmt"
+import "fmt"
 
-// func printAge(age1, age2 int) (ageOfSally, ageOfBob int) {
-// 	ageOfSally = age1
-// 	ageOfBob = age2
-// 	return
-// }
+func printAge(age int) (ageOfSally int, ageOfBob int) {
+	ageOfSally = age * 2
+	ageOfBob = age * 3
+	return
+}
 
 func main() {
-	// 	x, y := printAge(10, 21)
-	// 	fmt.Println(x)
-	// 	fmt.Println(y)
+	fmt.Println(printAge(8))
 }
